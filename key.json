@@ -1,14 +1,13 @@
 {
-    "type": "service_account",
-    "project_id": "zetaton-ivtask",
-    "private_key_id": "3cb25859c5a6dbcd6509c4629c641f2fb25cef28",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3dBDgtV3UHLW1\n6+vyMZWq8MO8M3JHQmO1BWd9cXNfsNHl1lmpdAKJBWCFms3fzv2bkvr+vuhKyzaR\njaNBi6Xa2IsYEA03X9ETDPljfWciD0zVCMu1EJ12K+nmOoQ37gzkOvunhlTPbTQ6\nzve6vqtXfdEgUXXolsrsXBk6yJlUCm56x4ixGAM65FRhNf47VAGbNORkdlRkW9M7\nTdDA47CJeiBmn3P3CFmrqOWekReJ2ALVflJ7Y9CD+NVcTvH+rAZQJ6gWdTXrzI7g\n572kVoDPFv2xTKJ9CsDopPbfZdn37vjcc9WLYoiI54WXNBHdp97RtoszP6Mate6P\nnUETcKBvAgMBAAECggEARCW4c1DMNxQnKBoofsKOn35qp4nQ5MmzsjX8uKuhOSW9\nAwz6J6lxm6bEsTzNR1tj+BvEY0dVkRsl/THJOHsAtGgGW3zy++P7DYGfTqbx3cQj\nPWvUCEHQzGoJrD2GiiRC47FJdHTBIoCli0cA3X0gtxKE0eWQ0ELbxKt9r8l+s6m/\nDuLS2dVReot8UYNtq5xffVNFhUpWKQigU+ASKpLvlpWOFUqTQ+u6UWvFunB7Rpgu\niKbMuOhI7gLe28/oYJ4L8FOvLxV1ZR4DHxzy9tBbR2Qa62vSV1ElQd7EXamwNMWN\nc4Va75Juoy3QSHpAiFv3wmmu8ZXzMZO22ly8wqhLAQKBgQDmGrGoXZQbtJuqkGLo\nBnZtCKiIqjHZyOEyl/oA8ggADgCIB0r3h89PTXhf4L2qWBDI4+XRn7719C4aJHRT\nJt+Uc2nj2bWeGLm+nvaB2NSPdHOW0qBwq+64tm0kMVHXpBF709uDXfMnK2WDLf4K\nXjRQzgMKKDKIBy8OHf7lGrIy7wKBgQDMGVwBx5gZ9VamgNtW6HLrp4+OgEamocJO\n0nQlgKyeyi6aI/6fARVekGO97HMOD1MaLZqtFttQtfceX0oiq5uloE1XA+JiQ1J+\nLshGXZM6s85FMZGwAF8gG7bxQ9xHPcuxnu/ucEyf14vLZArU2/jZGggONgTHoVRV\nri6D2lJqgQKBgQDbbVk9VP+H7BMF8+pdmMwV7cvJh4NCS2108bhWbndyleer0EiN\nA9WNqjLAO3CioJhg+fKOk+dmZBQSmfDT2p4a0nSH83Rd7vYx8SThbgRFSKdxjCmz\nSEG9ozkw6ldBbBPAIaeS/mSBVcDX92PqPytkYxBC/1IwpakZrUEE+RA1wQKBgQDI\n1dd0pNwmBwY6F6g+L8QN4bdgqRdcluYmO+8wjBrQsfEDmpHOEvndMMYFOKvK1QeY\nRfHjiw9Kr5Q5HdlMnoMtir0v99GHkemV4yEOJLxg0lgSPIG4p9TzOnJdnMIglE1h\nPh2pCnZL/4U/IfWKmd6Ye4YbvcocSsM7AIgjFO1ugQKBgQCkjM5Di0mj6SOUnqJO\nzwvmdGxUGMYDj+vQk8On0wD9UPTV10gpVIuFzivRg7DH7F8AItxlQAJsRSj47xAp\nASSaIqyaGoXnkjHuzxiM7jX4bUWyYtscs5u3oKUo9H85su8F0X8JP47r64/RBeJ4\nHFvWUuoF8i9qaXLjwpUIbvAQEQ==\n-----END PRIVATE KEY-----\n",
-    "client_email": "firebase-adminsdk-spppl@zetaton-ivtask.iam.gserviceaccount.com",
-    "client_id": "111270424671720638919",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-spppl%40zetaton-ivtask.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
-  
+  "type": "service_account",
+  "project_id": "zetaton-ivtask",
+  "private_key_id": "3cb25859c5a6dbcd6509c4629c641f2fb25cef28",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3dBDgtV3UHLW1\n6+vyMZWq8MO8M3JHQmO1BWd9cXNfsNHl1lmpdAKJBWCFms3fzv2bkvr+vuhKyzaR\njaNBi6Xa2IsYEA03X9ETDPljfWciD0zVCMu1EJ12K+nmOoQ37gzkOvunhlTPbTQ6\nzve6vqtXfdEgUXXolsrsXBk6yJlUCm56x4ixGAM65FRhNf47VAGbNORkdlRkW9M7\nTdDA47CJeiBmn3P3CFmrqOWekReJ2ALVflJ7Y9CD+NVcTvH+rAZQJ6gWdTXrzI7g\n572kVoDPFv2xTKJ9CsDopPbfZdn37vjcc9WLYoiI54WXNBHdp97RtoszP6Mate6P\nnUETcKBvAgMBAAECggEARCW4c1DMNxQnKBoofsKOn35qp4nQ5MmzsjX8uKuhOSW9\nAwz6J6lxm6bEsTzNR1tj+BvEY0dVkRsl/THJOHsAtGgGW3zy++P7DYGfTqbx3cQj\nPWvUCEHQzGoJrD2GiiRC47FJdHTBIoCli0cA3X0gtxKE0eWQ0ELbxKt9r8l+s6m/\nDuLS2dVReot8UYNtq5xffVNFhUpWKQigU+ASKpLvlpWOFUqTQ+u6UWvFunB7Rpgu\niKbMuOhI7gLe28/oYJ4L8FOvLxV1ZR4DHxzy9tBbR2Qa62vSV1ElQd7EXamwNMWN\nc4Va75Juoy3QSHpAiFv3wmmu8ZXzMZO22ly8wqhLAQKBgQDmGrGoXZQbtJuqkGLo\nBnZtCKiIqjHZyOEyl/oA8ggADgCIB0r3h89PTXhf4L2qWBDI4+XRn7719C4aJHRT\nJt+Uc2nj2bWeGLm+nvaB2NSPdHOW0qBwq+64tm0kMVHXpBF709uDXfMnK2WDLf4K\nXjRQzgMKKDKIBy8OHf7lGrIy7wKBgQDMGVwBx5gZ9VamgNtW6HLrp4+OgEamocJO\n0nQlgKyeyi6aI/6fARVekGO97HMOD1MaLZqtFttQtfceX0oiq5uloE1XA+JiQ1J+\nLshGXZM6s85FMZGwAF8gG7bxQ9xHPcuxnu/ucEyf14vLZArU2/jZGggONgTHoVRV\nri6D2lJqgQKBgQDbbVk9VP+H7BMF8+pdmMwV7cvJh4NCS2108bhWbndyleer0EiN\nA9WNqjLAO3CioJhg+fKOk+dmZBQSmfDT2p4a0nSH83Rd7vYx8SThbgRFSKdxjCmz\nSEG9ozkw6ldBbBPAIaeS/mSBVcDX92PqPytkYxBC/1IwpakZrUEE+RA1wQKBgQDI\n1dd0pNwmBwY6F6g+L8QN4bdgqRdcluYmO+8wjBrQsfEDmpHOEvndMMYFOKvK1QeY\nRfHjiw9Kr5Q5HdlMnoMtir0v99GHkemV4yEOJLxg0lgSPIG4p9TzOnJdnMIglE1h\nPh2pCnZL/4U/IfWKmd6Ye4YbvcocSsM7AIgjFO1ugQKBgQCkjM5Di0mj6SOUnqJO\nzwvmdGxUGMYDj+vQk8On0wD9UPTV10gpVIuFzivRg7DH7F8AItxlQAJsRSj47xAp\nASSaIqyaGoXnkjHuzxiM7jX4bUWyYtscs5u3oKUo9H85su8F0X8JP47r64/RBeJ4\nHFvWUuoF8i9qaXLjwpUIbvAQEQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-spppl@zetaton-ivtask.iam.gserviceaccount.com",
+  "client_id": "111270424671720638919",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-spppl%40zetaton-ivtask.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

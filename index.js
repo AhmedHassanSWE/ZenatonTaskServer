@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const admin = require("firebase-admin");
 const credentials = require("./key.json");
+const convertLink = require("./utils/handle-link");
 
 const app = express();
 
@@ -40,11 +41,12 @@ app.use("/posts", authenticateUser);
 
 // Create a new post
 app.post("/posts", async (req, res) => {
+  const imageLink = await convertLink(req.body.imageUrl);
   try {
     const post = {
       title: req.body.title,
       content: req.body.content,
-      imageUrl: req.body.imageUrl,
+      imageUrl: imageLink,
       userId: req.user.user_id,
     };
     await db.collection("posts").add(post);
@@ -80,6 +82,7 @@ app.get("/posts", async (req, res) => {
 // Update a post
 app.put("/posts/:id", async (req, res) => {
   try {
+    const imageLink = await convertLink(req.body.imageUrl);
     const postId = req.params.id;
     const postRef = db.collection("posts").doc(postId);
     const doc = await postRef.get();
@@ -93,7 +96,7 @@ app.put("/posts/:id", async (req, res) => {
         const postsSnapshot = await db.collection("posts").get();
         const posts = [];
         postsSnapshot.forEach((doc) => {
-          posts.push({ id: doc.id, ...doc.data() });
+          posts.push({ id: doc.id, imageUrl: imageLink, ...doc.data() });
         });
 
         res.send(posts);
@@ -136,3 +139,5 @@ app.delete("/posts/:id", async (req, res) => {
 });
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`########### Server is running on port ${PORT} ############`));
+
+module.exports = app;
