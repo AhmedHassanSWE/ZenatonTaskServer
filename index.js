@@ -48,10 +48,11 @@ app.post("/posts", async (req, res) => {
       content: req.body.content,
       imageUrl: imageLink,
       userId: req.user.user_id,
+      createdAt: admin.firestore.FieldValue.serverTimestamp(),
     };
     await db.collection("posts").add(post);
 
-    const postsSnapshot = await db.collection("posts").get();
+    const postsSnapshot = await db.collection("posts").orderBy("createdAt", "desc").get();
     const posts = [];
     postsSnapshot.forEach((doc) => {
       posts.push({ id: doc.id, ...doc.data() });
@@ -67,7 +68,7 @@ app.post("/posts", async (req, res) => {
 // Get all posts
 app.get("/posts", async (req, res) => {
   try {
-    const postsSnapshot = await db.collection("posts").get();
+    const postsSnapshot = await db.collection("posts").orderBy("createdAt", "desc").get();
     const posts = [];
     postsSnapshot.forEach((doc) => {
       posts.push({ id: doc.id, ...doc.data() });
