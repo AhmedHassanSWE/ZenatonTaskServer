@@ -3,7 +3,7 @@ const cors = require("cors");
 const admin = require("firebase-admin");
 const credentials = require("./key.json");
 const postRoutes = require("./routes/postRoutes");
-
+// 
 const app = express();
 
 app.use(cors());
