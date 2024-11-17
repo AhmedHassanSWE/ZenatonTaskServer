@@ -3,15 +3,10 @@ const fs = require('fs');
 const cors = require('cors')
 
 const PORT = process.env.PORT || 8081;
-const errorChance = 0.1;
 
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use((req, res, next) => {
-    if (Math.random() <= errorChance) return res.status(500).send(undefined);
-    else next();
-})
 
 app.post("/track", (req, res) => {
    const { id, from = undefined, to = undefined } = req.body;
