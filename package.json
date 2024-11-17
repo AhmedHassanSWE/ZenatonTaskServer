@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "node main.js"
+    "dev": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
